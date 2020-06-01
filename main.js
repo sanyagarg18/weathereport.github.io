@@ -1,8 +1,5 @@
-var city = 'Chandigarh'
-    
-
 $.getJSON(
-    "http://api.openweathermap.org/data/2.5/weather?q="+ city+ "&units=metric&APPID=5f1b48e5a5ba97d627026f3c77d3ac11", function(data) {
+    "http://api.openweathermap.org/data/2.5/weather?q=Chandigarh&units=metric&APPID=5f1b48e5a5ba97d627026f3c77d3ac11", function(data) {
     console.log(data);
 
 
